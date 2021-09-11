@@ -23,7 +23,7 @@ fi
 ```
 и потом можно юзать обычно
 ```
-$SED -i "s/^APP_ENV=.*/APP_ENV=${APP_ENV}/g" .env.local && \
+$SED -i "s/^APP_ENV=.*/APP_ENV=${APP_ENV}/g" .env.local
 ```
  
 ---
@@ -39,7 +39,7 @@ Global options:
 -n,  --app-name   App display name. Lucky Strike
 -d,  --design_id  Design id. 1
 
-./create_ap --i=com.vaga.lucky_strike --c=lucky_strike --n=Lucky Strike --d=1
+./create_ap -i=com.vaga.lucky_strike -c=lucky_strike -n=Lucky Strike --d=1
 
 ```
 ---
