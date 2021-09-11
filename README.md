@@ -43,7 +43,7 @@ Global options:
 
 ```
 ---
-1. Скопировать skelethon в skelethon_apps с названием:
+1. Скопировать **skelethon** в **skelethon_apps** с названием:
     - если папка пуская, то **app_1_com.vaga.lucky_strike**
     - если не пустая, то **app_$next_app_id_com.vaga.lucky_strike**, 
     а $next_app_id = следующая цифра из
@@ -55,9 +55,9 @@ Global options:
 
 2. Заменить по проекту
 - Строку "com.vaga.skelethon" на --app-id
-- Заменить в _skelethon_apps/app_1_com.vaga.lucky_strike/android/app/src/main/AndroidManifest.xml_ 
+- Заменить в **skelethon_apps/app_1_com.vaga.lucky_strike/android/app/src/main/AndroidManifest.xml** 
 'android:label="Skelethon"' на 'android:label="--app-name"'
-- Заменить в  _skelethon_apps/app_1_com.vaga.lucky_strike/lib/common/AppConstantIntegration.dart_
+- Заменить в **skelethon_apps/app_1_com.vaga.lucky_strike/lib/common/AppConstantIntegration.dart**
 "const APP_CODE = 'skelethon';" на "const APP_CODE = '--app-code';"
-- Скопировать с заменой из _design/--design_id/*_ в _skelethon_apps/app_1_com.vaga.lucky_strike/assets_ 
+- Скопировать с заменой из **design/--design_id/*** в **skelethon_apps/app_1_com.vaga.lucky_strike/assets** 
 
