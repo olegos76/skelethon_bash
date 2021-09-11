@@ -54,15 +54,14 @@ Global options:
     ```
 
 2. Заменить по проекту
-- Строку "com.vaga.skelethon" на --app-id
-- Заменить в **skelethon_apps/app_1_com.vaga.lucky_strike/android/app/src/main/AndroidManifest.xml** 
-'android:label="Skelethon"' на 'android:label="--app-name"'
-- Заменить в **skelethon_apps/app_1_com.vaga.lucky_strike/lib/common/AppConstantIntegration.dart**
-"const APP_CODE = 'skelethon';" на "const APP_CODE = '--app-code';"
-- Скопировать с заменой из **design/--design_id/*** в **skelethon_apps/app_1_com.vaga.lucky_strike/assets**
+    - Строку "com.vaga.skelethon" на --app-id
+    - Заменить в **skelethon_apps/app_1_com.vaga.lucky_strike/android/app/src/main/AndroidManifest.xml** 
+    'android:label="Skelethon"' на 'android:label="--app-name"'
+    - Заменить в **skelethon_apps/app_1_com.vaga.lucky_strike/lib/common/AppConstantIntegration.dart**
+    "const APP_CODE = 'skelethon';" на "const APP_CODE = '--app-code';"
+    - Скопировать с заменой из **design/--design_id/*** в **skelethon_apps/app_1_com.vaga.lucky_strike/assets**
 
-И в конце краснымы буквами ворнинги !!!
-
-1. Add app and download **google-service.json** https://console.firebase.google.com/project/zaebbapp/settings/general/android:com.vaga.joker_power?hl=ru 
-2. Add app attribution https://go.kochava.com/v/#/17993/55427/app/list
+3. И в конце краснымы буквами ворнинги !!!
+    1. Add app and download **google-service.json** https://console.firebase.google.com/project/zaebbapp/settings/general/android:com.vaga.joker_power?hl=ru 
+    2. Add app attribution https://go.kochava.com/v/#/17993/55427/app/list
 
