@@ -21,7 +21,7 @@
         </intent>
     </queries>
     <application
-            android:label="Joker Power"
+            android:label="Skelethon"
             android:icon="@mipmap/ic_launcher"
             android:usesCleartextTraffic="true"
     >
