@@ -29,9 +29,9 @@ $SED -i "s/^APP_ENV=.*/APP_ENV=${APP_ENV}/g" .env.local
 ---
 Нужны обязятальные аргументы и пример вызова:
 ```
-./create_ap
+./create_app
 
-Usage: create_ap.sh [arguments]
+Usage: create_app.sh [arguments]
 
 Global options:
 -i,  --app-id     Unique Application ID. com.vaga.lucky_strike
