@@ -52,7 +52,6 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-
 [[ -d "$SRC_DIR" ]] && [[ -r "$SRC_DIR" ]] || {
     echo "Can not access src dir '$SRC_DIR'"
     exit 1
@@ -75,12 +74,6 @@ done
     exit 2
 }
 
-#for i in ${DST_DIR}/app_*_com*; do
-#    DNAME1=${i/$DST_DIR\/app_/}
-#    APP_NUM=${DNAME1/%_*/}
-#    [[ ${APP_NUM} -gt ${NEXT_APP_ID} ]] && NEXT_APP_ID=${APP_NUM}
-#done
-
 NEXT_APP_ID=0
 while : ; do
   NEXT_APP_ID=$((NEXT_APP_ID+1))
@@ -94,7 +87,6 @@ while : ; do
 
   mkdir "$DST_DIR/app_"$NEXT_APP_ID"_"$APP_ID 2>/dev/null
   [[ $? -eq 0 ]] && break
-done
 
 APP_DIR="$DST_DIR/app_"$NEXT_APP_ID"_"$APP_ID
 
