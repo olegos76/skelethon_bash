@@ -339,7 +339,16 @@ We only support installing an APK from a URL
 
 ```python
 d.app_install('http://some-domain.com/some.apk')
+d.app_install("/data/local/tmp/app.apk")
 ```
+
+### Uninstall app
+d.app_uninstall("com.github.uiautomator")
+
+### List installed apps
+d.app_list()
+# with filter
+d.app_list("com.example")
 
 ### Launch an app
 ```python
